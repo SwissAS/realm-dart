@@ -13,7 +13,7 @@ environment:
 
 dependencies:
   analyzer: ^6.4.0
-  custom_lint_builder: ^0.7.1
+  custom_lint_builder: 0.6.4
   ejson_analyzer:
     path: ../ejson_analyzer
 
