@@ -20,7 +20,7 @@ environment:
 
 dependencies:
   analyzer: ^6.4.0
-  build: 2.4.0
+  build: ^2.4.0
   ejson_analyzer:
     path: ../ejson_analyzer
   source_gen: ^1.3.2
