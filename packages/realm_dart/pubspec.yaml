@@ -26,7 +26,7 @@ dependencies:
   realm_common: ^20.2.0
   realm_generator: ^20.2.0
   tar: ^2.0.0
-  build_runner: ^2.4.13
+  build_runner: 2.4.13
   http: ^1.2.1
   cancellation_token: ^2.0.0
   decimal: ^3.0.1
