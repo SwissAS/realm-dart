@@ -28,6 +28,7 @@ dependencies:
 
 dev_dependencies:
   build_runner: 2.4.13
-  ejson_generator: ^0.4.1
+  ejson_generator:
+    path: ../ejson_generator
   lints: ^5.1.1
   test: ^1.25.9
