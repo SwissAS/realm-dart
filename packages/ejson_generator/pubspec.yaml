@@ -22,7 +22,7 @@ dependencies:
   analyzer: ^7.3.0
   build: '2.4.2'
   ejson_analyzer:
-    path: ../ejson_generator
+    path: ../ejson_analyzer
   source_gen: ^2.0.0
 
 dev_dependencies:
