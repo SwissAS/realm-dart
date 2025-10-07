@@ -24,3 +24,4 @@ doc/api/
 # custom lint
 custom_lint.log
 /packages/realm/android/src/main/cpp/lib/
+/packages/realm/tests/test/data/realm_files/
