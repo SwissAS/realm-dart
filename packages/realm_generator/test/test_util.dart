@@ -56,7 +56,8 @@ void testCompile(
       );
     }
 
-    expect(generate(), matcher);
+    final generated = await generate();
+    expect(generated, matcher);
   }, skip: skip);
 }
 
