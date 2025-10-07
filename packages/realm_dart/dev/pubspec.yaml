@@ -12,7 +12,7 @@ dependencies:
   async: ^2.11.0
   cli_launcher: ^0.3.1
   collection: ^1.18.0
-  mason_logger: ^0.3.3
+  mason_logger: ^0.3.2
 
 dev_dependencies:
   lints: ^5.1.1
