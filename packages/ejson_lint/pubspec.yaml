@@ -9,7 +9,7 @@ version: 0.4.1
 repository: https://github.com/realm/realm-dart/ejson/packages/ejson_lint
 
 environment:
-  sdk: ^3.6.0
+  sdk: ^3.4.0
 
 dependencies:
   analyzer: ^6.4.0
