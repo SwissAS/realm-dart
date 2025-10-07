@@ -29,7 +29,7 @@ dependencies:
   realm_generator:
     path: ../realm_generator
   tar: ^2.0.0
-  build_runner: 2.4.13
+  build_runner: 2.4.11
   http: ^1.2.1
   cancellation_token: ^2.0.0
   decimal: ^3.0.1

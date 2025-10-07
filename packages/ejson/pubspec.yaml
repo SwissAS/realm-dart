@@ -27,7 +27,7 @@ dependencies:
   type_plus: ^2.0.0
 
 dev_dependencies:
-  build_runner: 2.4.13
+  build_runner: 2.4.11
   ejson_generator:
     path: ../ejson_generator
   lints: ^5.1.1
