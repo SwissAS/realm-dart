@@ -19,7 +19,7 @@ environment:
   sdk: ^3.4.0
 
 dependencies:
-  collection: ^1.19.0
+  collection: ^1.18.0
   ejson_annotation:
     path: ../ejson_annotation
   objectid: ^4.0.0
