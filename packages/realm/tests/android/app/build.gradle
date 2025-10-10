@@ -25,7 +25,12 @@ if (flutterVersionName == null) {
 android {
     namespace "io.realm.tests"
     compileSdkVersion flutter.compileSdkVersion
-    ndkVersion flutter.ndkVersion
+
+    // Fix issues:
+    //    Your project is configured with Android NDK 26.1.10909125, but the following plugin(s) depend on a different Android NDK version:
+    //    - integration_test requires Android NDK 27.0.12077973
+    //    - realm requires Android NDK 27.0.12077973
+    ndkVersion = "27.0.12077973"
 
     compileOptions {
         sourceCompatibility JavaVersion.VERSION_1_8

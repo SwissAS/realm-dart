@@ -75,7 +75,7 @@ void main() {
     final trace = Isolate.run(() async {
       return (await Realm.logger.onRecord.first).message;
     });
-    await Future<void>.delayed(const Duration(milliseconds: 100)); // yield
+    await Future<void>.delayed(const Duration(milliseconds: 500)); // yield
     expectLater(trace, completion('Hey'));
     Realm.logger.log(LogLevel.trace, 'Hey');
   });
